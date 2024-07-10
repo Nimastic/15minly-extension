@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "15 Minute Reminder",
+    "version": "1.0",
+    "description": "A simple extension that gives you a reminder every 15 minutes.",
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "permissions": [
+      "notifications"
+    ]
+  }
+  
